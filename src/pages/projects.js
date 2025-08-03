@@ -55,7 +55,7 @@ export default function Projects() {
                 <Project
                   title='Mansior Marketplace'
                   img={project10}
-                  link='https://mansior-frontend.vercel.app/'
+                  link='https://mansior.com/'
                   github='https://github.com/Peculiars'
                 />
               </div>
