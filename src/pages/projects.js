@@ -10,9 +10,12 @@ import project6 from '../../public/images/projects/project6.png'
 import project2 from '../../public/images/projects/project2.png'
 import project5 from '../../public/images/projects/project5.png'
 import project7 from '../../public/images/projects/project7.png'
+import project11 from '../../public/images/projects/p6.png'
 import project8 from '../../public/images/projects/project8.png'
 import project9 from '../../public/images/projects/project9.png'
-import project10 from '../../public/images/projects/project10.png'
+import project10 from '../../public/images/projects/p3.png'
+import project12 from '../../public/images/projects/p5.png'
+import project13 from '../../public/images/projects/p2.png'
 import { TransitionEffect } from '@/components/TransitionEffect'
 
 
@@ -30,7 +33,29 @@ export default function Projects() {
         <Layout className=''>
           <AnimatedText text='Imagination Trumps Knowledge!' className='text-center py-10 xs:text-5xl sm:text-7xl'/>
           <div className='grid xs:grid-cols-12 xs:gap-y-10 sm:gap-x-8 lg:gap-14 pt-10'>
-          <div className='relative col-span-12 rounded-3xl'>
+              <div className='relative col-span-12 rounded-3xl'>
+                <div className='absolute top-0 md:-right-4 xs:-right-2 z-1 w-[101.1%] md:h-[103%] sm:h-[102%] xs:h-[102%] rounded-[2.5rem] bg-dark dark:bg-light'/>
+                <FeaturedProjects
+                  title='Lectura - AI SAAS'
+                  img={project11}
+                  summary='Lectures AI (Lectura) – An AI voice agent platform that provides one-on-one tutoring on any topic. Users can view and reuse conversations created by others.'
+                  link='https://lectura-three.vercel.app/'
+                  github='https://github.com/Peculiars/'
+                  type='Featured Project'
+                />
+              </div>
+              <div className='relative col-span-12 rounded-3xl'>
+                <div className='absolute top-0 md:-right-4 xs:-right-2 z-1 w-[101.1%] md:h-[103%] sm:h-[102%] xs:h-[102%] rounded-[2.5rem] bg-dark dark:bg-light'/>
+                <FeaturedProjects
+                  title='Pixiwise - AI SAAS'
+                  img={project12}
+                  summary='Pixiwise AI – AI-powered SaaS for advanced image editing (background removal, color grading, resolution upscaling, object removal, and more)'
+                  link='https://pixiwise.vercel.app/'
+                  github='https://github.com/Peculiars/'
+                  type='Featured Project'
+                />
+              </div>
+              <div className='relative col-span-12 rounded-3xl'>
                 <div className='absolute top-0 md:-right-4 xs:-right-2 z-1 w-[101.1%] md:h-[103%] sm:h-[102%] xs:h-[102%] rounded-[2.5rem] bg-dark dark:bg-light'/>
                 <FeaturedProjects
                   title='Virtobusiness'
@@ -44,8 +69,8 @@ export default function Projects() {
               <div className='relative sm:col-span-6 xs:col-span-12'>
                 <div className='absolute top-0 md:-right-4 xs:-right-2 z-1 w-[101.1%] md:h-[103%] sm:h-[102%] xs:h-[102%] rounded-[2.5rem] bg-dark dark:bg-light'/>
                 <Project
-                  title='Mansior Landing Page'
-                  img={project9}
+                  title='Mansior - Proptech Marketplace'
+                  img={project13}
                   link='https://www.mansior.com/'
                   github='https://github.com/Peculiars'
                 />
@@ -53,9 +78,9 @@ export default function Projects() {
               <div className='relative sm:col-span-6 xs:col-span-12'>
                 <div className='absolute top-0 md:-right-4 xs:-right-2 z-1 w-[101.1%] md:h-[103%] sm:h-[102%] xs:h-[102%] rounded-[2.5rem] bg-dark dark:bg-light'/>
                 <Project
-                  title='Mansior Marketplace'
+                  title='Sorobo E-commerce platform'
                   img={project10}
-                  link='https://mansior-frontend.vercel.app/'
+                  link='https://www.sorobo.com.ng/'
                   github='https://github.com/Peculiars'
                 />
               </div>

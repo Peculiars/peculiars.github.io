@@ -89,37 +89,37 @@ export default function Articles() {
           <ul className=' mb-48'>
             <Article 
             title='Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling' 
-            date='March 22, 2024' 
+            date='March 22, 2025' 
             link='/' 
             img={article3}
             />
             <Article 
             title='Silky Smooth Scrolling In Reactjs: A Step-By-Step Guide For React Developers' 
-            date='March 30, 2024' 
+            date='March 30, 2025' 
             link='/' 
             img={article4}
             />
             <Article 
             title='Creating An Efficient Modal Component In React Using Hooks And Portals' 
-            date='April 05, 2024' 
+            date='April 05, 2025' 
             link='/' 
             img={article5}
             />
             <Article 
             title='Build A Fabulous Todo List App With React, Redux And Framer-Motion' 
-            date='April 08, 2024' 
+            date='April 08, 2025' 
             link='/' 
             img={article6}
             />
             <Article 
             title="Redux Simplified: A Beginner's Guide For Web Developers" 
-            date='April 14, 2024' 
+            date='April 14, 2025' 
             link='/' 
             img={article7}
             />
             <Article 
             title='What Is Higher Order Component (Hoc) In React?' 
-            date='April 20, 2024' 
+            date='April 20, 2025' 
             link='/' 
             img={article8}
             />

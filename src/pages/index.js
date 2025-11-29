@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Peculiar</title>
+        <title>Damilare</title>
         <meta name="description" content="Welcome to my portfolio, I am Olaitan Damilare, a Frontend and Mobile Developer." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" type='image/icon' href="/favicon.ico" />
